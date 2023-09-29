@@ -12,17 +12,17 @@ class Day_Expanded extends StatelessWidget {
         children: [
           Expanded(
             child: Container(
-              color: Colors.deepPurple,
+              color: Colors.deepPurple[600],
             ),
           ),
           Expanded(
             child: Container(
-              color: Colors.pink,
+              color: Colors.deepPurple[400],
             ),
           ),
           Expanded(
             child: Container(
-              color: Colors.deepOrange,
+              color: Colors.deepPurple[200],
             ),
           ),
         ],
