@@ -28,7 +28,7 @@ class Day_ListView_Builder extends StatelessWidget {
 
       body: Column(
         children: [
-          //TODO: Instagram Stories
+          // TODO: Instagram Stories
           SizedBox(
             height: 150,
             child: ListView.builder(
@@ -41,7 +41,7 @@ class Day_ListView_Builder extends StatelessWidget {
               scrollDirection: Axis.horizontal,
             ),
           ),
-          //TODO: Instagram Posts
+          // TODO: Instagram Posts
           Expanded(
             child: ListView.builder(
                 itemCount: _post.length,
