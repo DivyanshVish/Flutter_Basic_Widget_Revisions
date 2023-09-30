@@ -28,7 +28,9 @@ class Day_ListView_Builder extends StatelessWidget {
 
       body: Column(
         children: [
-          Expanded(
+          //TODO: Instagram Stories
+          SizedBox(
+            height: 150,
             child: ListView.builder(
               itemBuilder: (context, index) {
                 return MyCircles(
@@ -39,6 +41,7 @@ class Day_ListView_Builder extends StatelessWidget {
               scrollDirection: Axis.horizontal,
             ),
           ),
+          //TODO: Instagram Posts
           Expanded(
             child: ListView.builder(
                 itemCount: _post.length,
