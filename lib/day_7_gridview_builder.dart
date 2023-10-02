@@ -8,8 +8,8 @@ class Day_GridView_Builder extends StatelessWidget {
     return Scaffold(
       body: GridView.builder(
           itemCount: 9,
-          gridDelegate:
-              SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2),
+          gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+              crossAxisCount: 2),
           itemBuilder: (context, index) {
             return Padding(
               padding: const EdgeInsets.all(8.0),

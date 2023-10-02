@@ -7,7 +7,7 @@ class Day_ImageAssets extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Container(
+        child: SizedBox(
           height: 300,
           width: 300,
           child: Image.asset(
