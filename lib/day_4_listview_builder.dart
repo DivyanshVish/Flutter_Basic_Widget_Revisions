@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:thirty_days_challeng/circles.dart';
-import 'package:thirty_days_challeng/square.dart';
+import 'package:thirty_days_challeng/pages/circles.dart';
+import 'package:thirty_days_challeng/pages/square.dart';
 
 class Day_ListView_Builder extends StatelessWidget {
   Day_ListView_Builder({super.key});

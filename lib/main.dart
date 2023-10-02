@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:thirty_days_challeng/day_12_sliverappbar.dart';
-import 'day_11_drawer.dart';
+import 'package:thirty_days_challeng/day_13_tab_bar.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,12 +11,12 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       /* --------------- Theme Function will change entire Application Theme --------------- */
       /* --------------------------- theme: ThemeData(), -------------------------- */
-
+      theme: ThemeData(primarySwatch: Colors.deepPurple),
       debugShowCheckedModeBanner: false,
-      home: Day_SliverAppBar(),
+      home: const Day_Tab_Bar(),
     );
   }
 }
