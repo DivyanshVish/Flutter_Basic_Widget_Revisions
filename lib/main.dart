@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:thirty_days_challeng/day_12_sliverappbar.dart';
 import 'day_11_drawer.dart';
 
 void main() {
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       /* --------------------------- theme: ThemeData(), -------------------------- */
 
       debugShowCheckedModeBanner: false,
-      home: Day_Drawer(),
+      home: Day_SliverAppBar(),
     );
   }
 }
