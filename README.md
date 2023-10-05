@@ -9,4 +9,12 @@ This Flutter project contain various Dart page with different type of Widgets.
         Column
         Row
         ListView and Builder
+        ClipRRect
+        GridView and Builder
+        GestureDetector
+        BottomNavigationBar
+        AppBar
+        Drawer
+        SliverAppBar
+        TabBar
         
