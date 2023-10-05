@@ -10,7 +10,7 @@ class Day_Tab_Bar extends StatelessWidget {
       child: Scaffold(
         appBar: AppBar(
           centerTitle: true,
-          title: const Text("TAB BAR"),
+          title: const Text("T A B B A R"),
           bottom: const TabBar(
             // Use TabBar widget with TabBarView
             tabs: [
