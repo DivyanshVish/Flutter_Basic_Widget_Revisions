@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:thirty_days_challeng/day_13_tab_bar.dart';
+
+import 'day_16_alert_dialog.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,12 +12,12 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       /* --------------- Theme Function will change entire Application Theme --------------- */
       /* --------------------------- theme: ThemeData(), -------------------------- */
-      theme: ThemeData(primarySwatch: Colors.deepPurple),
+
       debugShowCheckedModeBanner: false,
-      home: const Day_Tab_Bar(),
+      home: Day_ALert_Dialog(),
     );
   }
 }
